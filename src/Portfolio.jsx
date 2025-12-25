@@ -79,8 +79,8 @@ function Portfolio() {
             contact: { title: "/ Travaillons ensemble", sub: "UN PROJET <br /> EN TÊTE ?", btn: "Envoyer le message", social: "Retrouvez-moi sur" },
             projects: "/ Projets",
             projectList: [
-                { title: "Pulse", desc: "Landing page futuriste pour une banque.", tech: "React • Tailwind.css • Gsap" , link: "https://pulse-psi-puce.vercel.app/" , img: "./public/pulse.png"},
-                { title: "FilmInfos", desc: "Site web de recherche d'informations sur un film ou une serie a partir d'un titre .", tech: "HTML • CSS • javascript • API Rest " , link: "https://film-infos.vercel.app/", img: "./public/filmInfos.png" },
+                { title: "Pulse", desc: "Landing page futuriste pour une banque.", tech: "React • Tailwind.css • Gsap" , link: "https://pulse-psi-puce.vercel.app/" , img: "pulse.png"},
+                { title: "FilmInfos", desc: "Site web de recherche d'informations sur un film ou une serie a partir d'un titre .", tech: "HTML • CSS • javascript • API Rest " , link: "https://film-infos.vercel.app/", img: "filmInfos.png" },
                 { title: "Le sensei", desc: "Site web de recherche d'anime avec un chatbot type otaku. ", tech: "React • Express • Gemini API", link: "https://le-sensei.vercel.app/", img: "le-sensei.png" },
                 { title: "Kitchen", desc: "Landing page moderne et chaleureux pour un restaurant.", tech: "React •Tailwind.css • Gsap", link: "https://kitchen-nine-gamma.vercel.app/", img: "kitchen.png"}
             ],
@@ -94,8 +94,8 @@ function Portfolio() {
             contact: { title: "/ Let's work", sub: "A PROJECT <br /> IN MIND ?", btn: "Send message", social: "Find me on" },
             projects: "/ Projects",
             projectList: [
-                { title: "Pulse", desc: "Futuristic landing page for a bank.", tech: "React • Tailwind.css • Gsap", link: "https://film-infos.vercel.app/", img: "./public/filmInfos.png" },
-                { title: "FilmInfos", desc: "Website for searching for information about a film or series based on a title.", tech: "React • Chart.js • Firebase", link: "", img: "./public/pulse.png" },
+                { title: "Pulse", desc: "Futuristic landing page for a bank.", tech: "React • Tailwind.css • Gsap", link: "https://film-infos.vercel.app/", img: "filmInfos.png" },
+                { title: "FilmInfos", desc: "Website for searching for information about a film or series based on a title.", tech: "React • Chart.js • Firebase", link: "", img: "pulse.png" },
                 { title: "Le sensei", desc: "Anime search website with an otaku-style chatbot.", tech: "React • Express • Gemini API", link: "https://le-sensei.vercel.app/", img: "le-sensei.png"},
                 { title: "Kitchen", desc: "Modern and welcoming landing page for a restaurant.", tech: "React •Tailwind.css • Gsap", link: "https://kitchen-nine-gamma.vercel.app/", img: "kitchen.png"}
             ],
@@ -106,20 +106,20 @@ function Portfolio() {
     const t = translations[lang];
 
     const frontSkills = [
-        { name: 'HTML', img: './public/html-5.png', level: 'expert' },
-        { name: 'CSS', img: './public/css-3.png', level: 'expert' },
-        { name: 'Javascript', img: './public/js.png', level: 'intermediate' },
-        { name: 'React', img: './public/atom.png', level: 'intermediate' },
-        { name: 'Tailwind.css', img: './public/tailwind.png', level: 'intermediate' },
-        { name: 'Gsap', img: './public/gsap.ico', level: 'intermediate' },
+        { name: 'HTML', img: 'html-5.png', level: 'expert' },
+        { name: 'CSS', img: 'css-3.png', level: 'expert' },
+        { name: 'Javascript', img: 'js.png', level: 'intermediate' },
+        { name: 'React', img: 'atom.png', level: 'intermediate' },
+        { name: 'Tailwind.css', img: 'tailwind.png', level: 'intermediate' },
+        { name: 'Gsap', img: 'gsap.ico', level: 'intermediate' },
     ];
 
     const backSkills = [
-        { name: 'Node.js', img: './public/node-js.png', level: 'intermediate' },
-        { name: 'Express.js', img: './public/icons8-express-js-50.png', level: 'intermediate' },
-        { name: 'Python', img: './public/python.png', level: 'intermediate' },
-        { name: 'APIrest', img: './public/rest.png', level: 'Expert' },
-        { name: 'PostgreSQL', img: './public/elephant.png', level: 'intermediate' },
+        { name: 'Node.js', img: 'node-js.png', level: 'intermediate' },
+        { name: 'Express.js', img: 'icons8-express-js-50.png', level: 'intermediate' },
+        { name: 'Python', img: 'python.png', level: 'intermediate' },
+        { name: 'APIrest', img: 'rest.png', level: 'Expert' },
+        { name: 'PostgreSQL', img: 'elephant.png', level: 'intermediate' },
     ];
 
     return (
