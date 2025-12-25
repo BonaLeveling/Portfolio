@@ -94,8 +94,8 @@ function Portfolio() {
             contact: { title: "/ Let's work", sub: "A PROJECT <br /> IN MIND ?", btn: "Send message", social: "Find me on" },
             projects: "/ Projects",
             projectList: [
-                { title: "Pulse", desc: "Futuristic landing page for a bank.", tech: "React • Tailwind.css • Gsap", link: "https://film-infos.vercel.app/", img: "filmInfos.png" },
-                { title: "FilmInfos", desc: "Website for searching for information about a film or series based on a title.", tech: "React • Chart.js • Firebase", link: "", img: "pulse.png" },
+                { title: "Pulse", desc: "Futuristic landing page for a bank.", tech: "React • Tailwind.css • Gsap", link: "https://pulse-psi-puce.vercel.app/" , img: "pulse.png" },
+                { title: "FilmInfos", desc: "Website for searching for information about a film or series based on a title.", tech: "HTML • CSS • javascript • API Rest " , link: "https://film-infos.vercel.app/", img: "filmInfos.png"},
                 { title: "Le sensei", desc: "Anime search website with an otaku-style chatbot.", tech: "React • Express • Gemini API", link: "https://le-sensei.vercel.app/", img: "le-sensei.png"},
                 { title: "Kitchen", desc: "Modern and welcoming landing page for a restaurant.", tech: "React •Tailwind.css • Gsap", link: "https://kitchen-nine-gamma.vercel.app/", img: "kitchen.png"}
             ],
