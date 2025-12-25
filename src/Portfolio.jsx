@@ -248,7 +248,7 @@ function Portfolio() {
                     </div>
                 </section>
                 <div className='flex justify-center'>
-                    <a href="https://github.com/BonaLEVELING" className=' px-8 py-4 bg-blue-600 text-white font-bold text-xs uppercase tracking-widest hover:bg-blue-700 transition-all cursor-pointer'>Plus sur Github</a>
+                    <a href="https://github.com/BonaLEVELING" className=' px-8 py-4 bg-blue-600 text-white font-bold text-xs uppercase tracking-widest hover:bg-blue-700 transition-all cursor-pointer'>{lang==='fr'? 'Plus sur Github': 'More on Github'}</a>
                 </div>
 
                 {/* Skills Section (Inchangée) */}
@@ -331,7 +331,7 @@ function Portfolio() {
             </main>
 
             <footer className='py-12 border-t border-white/5 text-center'>
-                <p className='text-[10px] opacity-40 font-["Fira_code"] tracking-[0.5em] uppercase'>© 2025 BonaLEVELING • Build to Elevate</p>
+                <p className='text-[10px] opacity-40 font-["Fira_code"] tracking-[0.5em] uppercase'>{lang==='en' ? '© 2025 BonaLEVELING • Build to Elevate' : '© 2025 BonaLEVELING • Construire pour élever'}</p>
             </footer>
         </div>
     )
