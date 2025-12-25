@@ -182,7 +182,7 @@ function Portfolio() {
                         <Link to="projects" smooth={true} className='px-8 py-4 bg-blue-600 text-white font-bold text-xs uppercase tracking-widest hover:bg-blue-700 transition-all cursor-pointer'>
                             {t.hero.btn1}
                         </Link>
-                        <a href="publicmon-cv.pdf" download className={`px-8 py-4 border ${darkMode ? 'border-white' : 'border-black'} font-bold text-xs uppercase tracking-widest hover:bg-blue-600 hover:border-blue-600 hover:text-white transition-all flex items-center gap-2`}>
+                        <a href="mon-cv.pdf" download className={`px-8 py-4 border ${darkMode ? 'border-white' : 'border-black'} font-bold text-xs uppercase tracking-widest hover:bg-blue-600 hover:border-blue-600 hover:text-white transition-all flex items-center gap-2`}>
                             {t.hero.btn2}
                         </a>
                     </div>
